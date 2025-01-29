@@ -3,3 +3,5 @@ I made README.md.txt first, as opposed to just a README.md, because I both made 
 Speaking of the conflict merge, I combined what was type in both versions of the file and made sure to highlight where each came from. 
 
 I added some additional context to the README.md for the answers and then changed it back using Github desktop by going to the History tab, right clicking the commit, clicking undo commit and then commiting that. 
+
+I also changed README.md.txt to mistake.txt for organization reasons. 
