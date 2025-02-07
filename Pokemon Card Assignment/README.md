@@ -57,3 +57,16 @@ flowchart
     L -->|New Card| M[Blank Card]
     M -->|Finish Card| G
 ```
+
+```mermaid
+flowchart
+    A[User] --> |Interacts With| B[Front-end]
+    B --> |API Calls| C[Backend]
+    
+    C --> |Stores and Retrieves Data| D[Card Database]
+    C --> |Stores and Retrieves Data| E[Deck Database]
+    C --> |Handles Authentication| F[Login/Signup Services]
+    
+    G[Admin] --> |Interacts With| B
+    G --> |Interacts With| C
+```
